@@ -1,0 +1,60 @@
+.moviesPage{
+    margin-top: 4rem;
+}
+.myList{
+    width: 100vw;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    &__title{
+        display: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 'Archivo Black', sans-serif;
+        background-clip: text;
+        color: #545353;
+    }
+
+    &__wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: #6C6C6C;
+}
+@media screen and (max-width: 768px){
+    .moviesPage{
+        margin-top: 0.5rem;
+    }
+    .myList{
+        margin-top: 0rem;
+
+        &__title{
+            display: block;
+        }
+
+        &__wrapper{
+            margin-left: 1rem;
+        }
+
+
+    }
+}
