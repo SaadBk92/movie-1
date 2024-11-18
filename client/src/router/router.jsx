@@ -19,7 +19,7 @@ const createRoutes = () => (
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/movies" element={<Movies />} />
-        <Route path="/addUpdate" element={<AddUpdate />} />
+        {/* <Route path="/addUpdate" element={<AddUpdate />} /> */}
 
     </Routes>
 
